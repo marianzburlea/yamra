@@ -5,6 +5,20 @@ Welcome to **YAMRA**, **Y**et **A**nother **M**ono**R**epo **A**ttempt. I'll wri
 
 ***Latest changes***
 
+## Story time?
+
+Let's add a story book:
+
+```
+yarn add -DW @storybook/react
+```
+
+## Fix babel config
+
+Fix: error running babel config inside package.json
+
+While running in --root-mode upward babel is looking for a config in babel.config.js
+
 ## Create our first component (should be reusable)
 
 Run:
