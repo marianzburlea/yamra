@@ -7,7 +7,8 @@
   "scripts": {
     "commit": "git-cz",
     "c": "git-cz",
-    "build": "lerna exec --parallel -- babel --root-mode upward src -d lib --ignore **/*.story.js,**/*.spec.js"
+    "build": "lerna exec --parallel -- babel --root-mode upward src -d lib --ignore **/*.story.js,**/*.spec.js",
+    "story": "start-storybook -p 6789"
   },
   "keywords": [],
   "author": "",
@@ -16,18 +17,18 @@
     "cool-place-to-keep-a-project/*"
   ],
   "devDependencies": {
-    "@babel/cli": "^7.4.4",
-    "@babel/core": "^7.5.0",
-    "@babel/preset-env": "^7.5.0",
-    "@babel/preset-react": "^7.0.0",
-    "@storybook/react": "^5.1.8",
+    "@babel/cli": "7.4.4",
+    "@babel/core": "7.5.0",
+    "@babel/preset-env": "7.5.0",
+    "@babel/preset-react": "7.0.0",
+    "@storybook/react": "5.1.9",
     "babel-core": "7.0.0-bridge.0",
-    "babel-loader": "^8.0.6",
-    "babel-plugin-styled-components": "^1.10.6",
+    "babel-loader": "8.0.6",
+    "babel-plugin-styled-components": "1.10.6",
     "commitizen": "3.1.1",
     "cz-conventional-changelog": "2.1.0",
     "lerna": "3.15.0",
-    "webpack": "^4.35.2"
+    "webpack": "4.35.2"
   },
   "config": {
     "commitizen": {
