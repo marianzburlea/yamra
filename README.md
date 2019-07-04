@@ -5,6 +5,24 @@ Welcome to **YAMRA**, **Y**et **A**nother **M**ono**R**epo **A**ttempt. I'll wri
 
 ***Latest changes***
 
+## Our first story?
+
+Firstly, let's configure our mono repo storybook in `.storybook/config.js` with:
+
+```
+import { configure } from '@storybook/react';
+
+const req = require.context('../cool-place-to-keep-a-project', true, /.story.js$/);
+
+function loadStories() {
+    req.keys().forEach((filename) => req(filename));
+}
+
+configure(loadStories, module);
+```
+
+Let's add our first story as `index.story.js` in our codetap-button project.
+
 ## Story time?
 
 Let's add a story book:
