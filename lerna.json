@@ -1,0 +1,8 @@
+{
+  "packages": [
+    "cool-place-to-keep-a-project/*"
+  ],
+  "version": "independent",
+  "npmClient": "yarn",
+  "useWorkspaces": true
+}

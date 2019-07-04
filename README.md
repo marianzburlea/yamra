@@ -3,6 +3,40 @@ Welcome to **YAMRA**, **Y**et **A**nother **M**ono**R**epo **A**ttempt. I'll wri
 
 [You can start to read here, just click this link](#start-reading-upwords)
 
+***Latest changes***
+
+## Lerna?
+
+Lerna helps managing multiple projects.
+
+```npx lerna init```
+
+
+Add to `package.json`:
+```
+"workspaces": [
+  "cool-place-to-keep-a-project/*"
+],
+```
+
+Update `lerna.json` to:
+```
+{
+  "packages": [
+    "cool-place-to-keep-a-project/*"
+  ],
+  "version": "independent",
+  "npmClient": "yarn",
+  "useWorkspaces": true
+}
+```
+
+Add the new foloder to hold the future projects:
+
+```
+mkdir cool-place-to-keep-a-project
+```
+
 ## Push it to GitHub
 
 ```

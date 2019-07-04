@@ -10,9 +10,13 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "workspaces": [
+    "cool-place-to-keep-a-project/*"
+  ],
   "devDependencies": {
     "commitizen": "3.1.1",
-    "cz-conventional-changelog": "2.1.0"
+    "cz-conventional-changelog": "2.1.0",
+    "lerna": "3.15.0"
   },
   "config": {
     "commitizen": {
