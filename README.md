@@ -5,12 +5,17 @@ I'll write the history of it in reverse order. Newest first.
 
 ## History (in reverse order)
 
+You want to add `git` as a versioning system to watch like a historian hawk over your files.
+
+```git init && git add . && git commit -m "feat: start of YAMRA"```
+
 Followed by:
 
 ```npm init -y```
 
+to create a default `package.json` file.
 
-I've created a place for the project to feel comfortable:
+You want to create a place for the project to feel comfortable:
 
 ```mkdir yamra && cd $_```
 
