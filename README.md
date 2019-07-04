@@ -20,6 +20,14 @@ yarn add -WE jest jest-styled-components babel-jest react-test-renderer jest-res
 * **jest-resolve** resolves modules and checks if it is a haste module or a node module to speed up resolution when we build a dependency graph
 * **jest-haste-map** HasteMap is a JavaScript implementation of Facebook's haste module system.
 
+## Try out components?
+
+Storybook Addon Knobs allow you to edit React props dynamically using the Storybook UI. You can also use Knobs as a dynamic variable inside stories in Storybook.
+
+```
+yarn add -DW @storybook/addon-knobs
+```
+
 ## Our first story?
 
 Firstly, let's configure our mono repo storybook in `.storybook/config.js` with:
