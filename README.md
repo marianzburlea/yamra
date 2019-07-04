@@ -5,6 +5,28 @@ Welcome to **YAMRA**, **Y**et **A**nother **M**ono**R**epo **A**ttempt. I'll wri
 
 ***Latest changes***
 
+## Create our first component (should be reusable)
+
+Run:
+
+```
+cd cool-place-to-keep-a-project
+```
+
+followed by:
+
+```
+mkdir codetap-button && cd $_ && npm init -y
+```
+
+Than create a component in `src/index.js`
+
+## The party gets bigger with react, react-dom and styled-components
+
+```
+yarn add -DW react{,-dom} styled-components
+```
+
 ## Invite babel, styled and webpack
 
 ```
