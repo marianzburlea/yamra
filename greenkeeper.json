@@ -1,0 +1,10 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "cool-place-to-keep-a-project/codetap-button/package.json",
+        "package.json"
+      ]
+    }
+  }
+}
