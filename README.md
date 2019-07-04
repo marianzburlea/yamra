@@ -1,9 +1,7 @@
 # YAMRA
-Welcome to **YAMRA**, **Y**et **A**nother **M**ono**R**epo **A**ttempt.
+Welcome to **YAMRA**, **Y**et **A**nother **M**ono**R**epo **A**ttempt. I'll write the history of it in reverse order. Newest first.
 
-I'll write the history of it in reverse order. Newest first.
-
-## History (in reverse order)
+[You can start to read here, just click this link](#start-reading-upwords)
 
 ## Push it to GitHub
 
@@ -15,6 +13,13 @@ git push -u origin master
 ## Implement a commit helper
 
 ```yarn add -DE commitizen cz-conventional-changelog```
+
+EVERY time you want to do a commit message with `git` run:
+
+```yarn c```
+
+I'm pretty sure you'll figure the rest of it out.
+Otherwise get in touch with us using our text, voice and video chat at https://codetap.academy
 
 ## Add git to the party
 
@@ -38,5 +43,8 @@ If you don't have yarn run:
 You want to create a place for the project to feel comfortable:
 
 ```mkdir yamra && cd $_```
+
+## History (in reverse order)
+Scroll up to read. The reason for this setup is that every time you visit this project you should see the latest changes first.
 
 # Start reading upwords
