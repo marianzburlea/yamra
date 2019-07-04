@@ -5,6 +5,16 @@ Welcome to **YAMRA**, **Y**et **A**nother **M**ono**R**epo **A**ttempt. I'll wri
 
 ***Latest changes***
 
+## Invite babel, styled and webpack
+
+```
+yarn add -DW @babel/cli @babel/core @babel/preset-react @babel/preset-env babel-core@7.0.0-bridge.0 babel-loader babel-plugin-styled-components webpack
+````
+
+The `-W` will install across the workspace.
+
+Don't forget to set `"private": true` in `package.json`
+
 ## Lerna?
 
 Lerna helps managing multiple projects.
