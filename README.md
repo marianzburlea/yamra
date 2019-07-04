@@ -5,6 +5,21 @@ Welcome to **YAMRA**, **Y**et **A**nother **M**ono**R**epo **A**ttempt. I'll wri
 
 ***Latest changes***
 
+## Let's start testing
+
+Wouldn't it be fun to add a bunch of libraries like:
+
+```
+yarn add -WE jest jest-styled-components babel-jest react-test-renderer jest-resolve jest-haste-map
+```
+
+* **jest** A comprehensive JavaScript testing solution. Works out of the box for most JavaScript projects.
+* **jest-styled-components** A set of utilities for testing Styled Components with Jest. This package improves the snapshot testing experience and provides a brand new matcher to make expectations on the style rules.
+* **babel-jest** If you are already using jest-cli, just add babel-jest and it will automatically compile JavaScript code using Babel.
+* **react-test-renderer** This package provides an experimental React renderer that can be used to render React components to pure JavaScript objects, without depending on the DOM or a native mobile environment.
+* **jest-resolve** resolves modules and checks if it is a haste module or a node module to speed up resolution when we build a dependency graph
+* **jest-haste-map** HasteMap is a JavaScript implementation of Facebook's haste module system.
+
 ## Our first story?
 
 Firstly, let's configure our mono repo storybook in `.storybook/config.js` with:
