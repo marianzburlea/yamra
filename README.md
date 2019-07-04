@@ -1,4 +1,7 @@
 # YAMRA
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/marianzburlea/yamra.svg)](https://greenkeeper.io/)
+
 Welcome to **YAMRA**, **Y**et **A**nother **M**ono**R**epo **A**ttempt. I'll write the history of it in reverse order. Newest first.
 
 [You can start to read here, just click this link](#start-reading-upwords)
