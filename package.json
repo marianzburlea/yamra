@@ -1,0 +1,12 @@
+{
+  "name": "yamra",
+  "version": "1.0.0",
+  "description": "Welcome to **YAMRA**, **Y**et **A**nother **M**ono**R**epo **A**ttempt.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
