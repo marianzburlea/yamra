@@ -5,6 +5,13 @@ I'll write the history of it in reverse order. Newest first.
 
 ## History (in reverse order)
 
+## Push it to GitHub
+
+```
+git remote add origin git@github.com:marianzburlea/yamra.git
+git push -u origin master
+```
+
 ## Implement a commit helper
 
 ```yarn add -DE commitizen cz-conventional-changelog```
