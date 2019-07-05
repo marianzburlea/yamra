@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input type text renders correctly 1`] = `
+.c0 {
+  border: 1px solid #036;
+}
+
+<input
+  className="c0"
+/>
+`;
