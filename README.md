@@ -5,6 +5,27 @@ Welcome to **YAMRA**, **Y**et **A**nother **M**ono**R**epo **A**ttempt. I'll wri
 
 ***Latest changes***
 
+## Check for changed repositories
+
+Running the following:
+```
+npx lerna changed
+```
+
+will get you something like this
+```
+lerna notice cli v3.15.0
+lerna info versioning independent
+lerna info Assuming all packages changed
+codetap-button
+codetap-text-input
+lerna success found 2 packages ready to publish
+```
+
+## Create a new component
+
+We want to create a new component `codetap-text-input`, write tests and stories.
+
 ## Let's start testing
 
 Wouldn't it be fun to add a bunch of libraries like:
