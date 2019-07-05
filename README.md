@@ -5,6 +5,20 @@ Welcome to **YAMRA**, **Y**et **A**nother **M**ono**R**epo **A**ttempt. I'll wri
 
 ***Latest changes***
 
+## Lerna changelog
+
+Install the module:
+
+```
+yarn add -DW lerna-changelog
+```
+
+Generate a token if needed at https://github.com/settings/tokens
+
+use the token like:
+export GITHUB_AUTH="e11cc4ccbbd4cf333d3b7c888cc9f5712eee4444"
+
+
 ## Check for changed repositories
 
 Running the following:
