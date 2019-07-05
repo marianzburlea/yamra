@@ -11,7 +11,8 @@
     "story": "start-storybook -p 6789",
     "coverage": "jest --coverage",
     "unit": "jest",
-    "test": "jest --watch"
+    "test": "jest --watch",
+    "changelog": "lerna-changelog"
   },
   "keywords": [],
   "author": "",
@@ -19,20 +20,8 @@
   "workspaces": [
     "cool-place-to-keep-a-project/*"
   ],
-  "devDependencies": {
-    "@babel/cli": "7.4.4",
-    "@babel/core": "7.5.0",
-    "@babel/preset-env": "7.5.0",
-    "@babel/preset-react": "7.0.0",
-    "@storybook/addon-knobs": "^5.1.9",
-    "@storybook/react": "5.1.9",
-    "babel-core": "7.0.0-bridge.0",
-    "babel-loader": "8.0.6",
-    "babel-plugin-styled-components": "1.10.6",
-    "commitizen": "3.1.1",
-    "cz-conventional-changelog": "2.1.0",
-    "lerna": "3.15.0",
-    "webpack": "4.35.2"
+  "changelog": {
+    "repo": "marianzburlea/yamra"
   },
   "config": {
     "commitizen": {
@@ -55,5 +44,21 @@
     "jest-resolve": "24.8.0",
     "jest-styled-components": "6.3.3",
     "react-test-renderer": "16.8.6"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.4.4",
+    "@babel/core": "7.5.0",
+    "@babel/preset-env": "7.5.0",
+    "@babel/preset-react": "7.0.0",
+    "@storybook/addon-knobs": "^5.1.9",
+    "@storybook/react": "5.1.9",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-loader": "8.0.6",
+    "babel-plugin-styled-components": "1.10.6",
+    "commitizen": "3.1.1",
+    "cz-conventional-changelog": "2.1.0",
+    "lerna": "3.15.0",
+    "lerna-changelog": "^0.8.2",
+    "webpack": "4.35.2"
   }
 }
