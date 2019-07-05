@@ -8,7 +8,9 @@
     "commit": "git-cz",
     "c": "git-cz",
     "build": "lerna exec --parallel -- babel --root-mode upward src -d lib --ignore **/*.story.js,**/*.spec.js",
-    "story": "start-storybook -p 6789"
+    "story": "start-storybook -p 6789",
+    "coverage": "jest --coverage",
+    "unit": "jest"
   },
   "keywords": [],
   "author": "",
