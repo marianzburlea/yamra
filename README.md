@@ -45,7 +45,7 @@ We want to create a new component `codetap-text-input`, write tests and stories.
 Wouldn't it be fun to add a bunch of libraries like:
 
 ```
-yarn add -WE jest jest-styled-components babel-jest react-test-renderer jest-resolve jest-haste-map
+yarn add -WD jest jest-styled-components babel-jest react-test-renderer jest-resolve jest-haste-map
 ```
 
 * **jest** A comprehensive JavaScript testing solution. Works out of the box for most JavaScript projects.
