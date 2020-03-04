@@ -38,27 +38,30 @@
     ]
   },
   "dependencies": {
-    "babel-jest": "24.8.0",
-    "jest": "24.8.0",
-    "jest-haste-map": "24.8.1",
-    "jest-resolve": "24.8.0",
-    "jest-styled-components": "6.3.3",
-    "react-test-renderer": "16.8.6"
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "styled-components": "^5.0.1"
   },
   "devDependencies": {
     "@babel/cli": "7.4.4",
     "@babel/core": "7.5.0",
     "@babel/preset-env": "7.5.0",
     "@babel/preset-react": "7.0.0",
-    "@storybook/addon-knobs": "^5.1.9",
-    "@storybook/react": "5.1.9",
+    "@storybook/addon-knobs": "^5.3.14",
+    "@storybook/react": "^5.3.14",
     "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "24.8.0",
     "babel-loader": "8.0.6",
     "babel-plugin-styled-components": "1.10.6",
     "commitizen": "3.1.1",
     "cz-conventional-changelog": "2.1.0",
+    "jest": "24.8.0",
+    "jest-haste-map": "24.8.1",
+    "jest-resolve": "24.8.0",
+    "jest-styled-components": "6.3.3",
     "lerna": "3.15.0",
     "lerna-changelog": "^0.8.2",
+    "react-test-renderer": "16.8.6",
     "webpack": "4.35.2"
   }
 }

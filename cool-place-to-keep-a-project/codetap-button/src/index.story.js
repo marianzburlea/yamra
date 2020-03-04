@@ -6,10 +6,14 @@ import Button from '.';
 
 const story = storiesOf('The Amazing CodeTap Button', module)
 
-story.addDecorator(withKnobs)
-
 story
+  .addDecorator(withKnobs)
   .add('default', () => (
+    <Button disabled={boolean('Disabled', true)}>
+      {text('Label', 'Hello Storybook')}
+    </Button>
+  ))
+  .add('enabled', () => (
     <Button disabled={boolean('Disabled', false)}>
       {text('Label', 'Hello Storybook')}
     </Button>

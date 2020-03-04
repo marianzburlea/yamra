@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import React from 'react'
 
 const StyledCodeTapButton = styled.button`
   background: #c00;
@@ -13,4 +14,12 @@ const StyledCodeTapButton = styled.button`
   }
 `
 
-export default StyledCodeTapButton
+const CodeTapButton = ({ disabled, children }) => {
+  return (
+    <StyledCodeTapButton disabled={disabled}>
+      {children}
+    </StyledCodeTapButton>
+  )
+}
+
+export default CodeTapButton

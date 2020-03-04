@@ -6,4 +6,4 @@ import Input from '.';
 const story = storiesOf('Input', module)
 
 story
-  .add('default', () => <Input placeholder="Hello! I'm an input!" />);
+  .add('default', () => <Input label="change me" placeholder="Hello! I'm an input!" />);
